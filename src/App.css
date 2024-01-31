@@ -1,0 +1,93 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #110e0e;
+  color: #fff;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.container {
+  max-width: 1200px;
+  margin: 0 10;
+  padding: 0px;
+}
+
+/* AudioPlayer.css */
+
+.audio-player-container {
+  width: 100%;
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.audio-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.play-pause-button {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.play-pause-button:hover {
+  background-color: #1ed760;
+}
+
+/* Playlist.css */
+
+.playlist-container {
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.playlist-item {
+  padding: 10px;
+  border-bottom: 1px solid #535353;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.playlist-item:hover {
+  background-color: #535353;
+}
+
+/* AudioUploader.css */
+
+.audio-uploader-container {
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.upload-button {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #1ed760;
+}
